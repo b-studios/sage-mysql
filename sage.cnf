@@ -1,0 +1,9 @@
+# configuration options, that are apparently necessary for Sage
+
+[mysqld]
+default-storage-engine=InnoDB
+collation-server=latin1_german1_ci
+lower_case_table_names=1
+
+# Import fails if we do not allow big packets
+max_allowed_packet=512M
