@@ -30,3 +30,6 @@ and use the mysql command `SHOW VARIABLES`, such as:
 ```
 
 For further reference see the [parent container docs](https://hub.docker.com/_/mysql/).
+
+# Infos for pushing to docker hub
+Changes to this [github repository](https://github.com/b-studios/sage-mysql) are [automatically](https://docs.docker.com/docker-hub/github/#github-service-hooks) built and pushed to [docker hub](https://docs.docker.com/docker-hub/builds/).
